@@ -1,0 +1,388 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height: 62px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url(image.png);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+.border{
+    border: 2px solid transparent ;
+}
+.border:hover{
+    border: 2px solid white;
+    height: 56px;
+}
+.add0{
+    color: #cccccc;
+    margin: 3px;
+}
+.add1{
+    font-size: 20px;
+    margin: 7px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.search{
+    display: flex;
+    margin: 12px;
+    background-color: #febd69;
+    border-radius: 10px;
+}
+.search-icon{
+    width: 525px;
+}
+.iconify{
+    width: 45px;
+    color: #0f1111;
+    font-size: 30px;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.Eng{
+    
+    font-size: 25px;
+    margin-top: 15px;
+    background-color: #0f1111;
+    color: white;
+}
+#accont{
+        color: #cccccc;
+        margin: 3px;
+}
+.account{
+    justify-content: center;
+    align-items: center;
+}
+.Account{
+    background-color: #0f1111;
+    color: white;
+    font-size: 20px;
+}
+.cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+.Cart{
+    margin-left: 5px;
+}
+.panel{
+    height: 34px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    padding-top:12px ;
+    justify-content: space-evenly;
+}
+.menuall{
+    display: flex;
+    font-size: 18px;
+}
+#All{
+    margin-left: 12px;
+    margin-top: -1px;    
+}
+.remain p{
+    display: inline;
+    margin-left: 8px; 
+    font-size: 16px;  
+}
+.borderp{
+    border: 2px solid transparent ;
+}
+.borderp:hover{
+    border: 2px solid white;
+    height: 34px;
+}
+.slider{
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+}
+figure{
+    position: relative;
+    width: 400%;
+    left: 0%;
+    /* animation: 15s slide infinite; */
+}
+.slide{
+    position: relative;
+    width: 25%;
+    float: left;
+}
+.slide img{
+    width: 100%;
+    height: 500px;
+}
+@keyframes slide{
+    0%{
+        left: 0%;
+    }
+    10%{
+        left: 0%;
+    }
+    20%{
+        left: -100%;
+    }
+    30%{
+        left: -100%;
+    }
+    40%{
+        left: -200%;
+    }
+    50%{
+        left: -200%;
+    }
+    60%{
+        left: -300%;
+    }
+    70%{
+        left: -300%;
+    }
+    77%{
+        left: -200%;
+    }
+    83%{
+        left: -200%;
+    }
+    89%{
+        left: -100%;
+    }
+    93%{
+        left: -100%;
+    }
+    100%{
+        left: -0%;
+    }
+}
+.reccomend{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #eee8e8;
+    flex-wrap: wrap;
+}
+.box{
+    width: 350px;
+    height: 400px;
+    margin-top: 15px;
+    border: 2px solid black;
+    background-color: white;   
+}
+.refrigirater{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    zoom:95%;
+    margin: 10px;
+}
+.box1 {
+    padding: 1px;
+}
+.box1 p{
+    margin: 5px;
+    padding-left: 15px;
+    padding-top: 2px;
+    color: #2162A1;
+}
+.box1 h2{
+    font-size: 150%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box2 {
+    padding: 1px;
+}
+.box2 p{
+    margin: 5px;
+    padding-left: 15px;
+    padding-top: 10px;
+    color: #2162A1;
+}
+.box2 h2{
+    font-size: 150%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mows{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    zoom:150%;
+    margin: 10px;
+}
+.box3 {
+    padding: 1px;
+}
+.box3 p{
+    margin: 5px;
+    padding-left: 15px;
+    padding-top: 7px;
+    color: #2162A1;
+}
+.box3 h2{
+    font-size: 150%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Dresses{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    zoom:55%;
+    margin: 10px;
+}
+.box4 {
+    padding: 1px;
+}
+.box4 p{
+    margin: 5px;
+    padding-left: 15px;
+    padding-top: 23px;
+    color: #2162A1;
+}
+.box4 h2{
+    font-size: 150%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.shoe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    zoom:170%;
+    margin: 10px;
+}
+.box5 {
+    padding: 1px;
+}
+.box5 p{
+    margin: 5px;
+    padding-left: 15px;
+    padding-top: 24px;
+    color: #2162A1;
+}
+.box5 h2{
+    font-size: 150%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    zoom:160%;
+    margin: 10px;
+}
+.box6 {
+    padding: 1px;
+}
+.box6 p{
+    margin: 5px;
+    padding-left: 15px;
+    padding-top: 38px;
+    color: #2162A1;
+}
+.box6 h2{
+    font-size: 150%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.PlayStation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    zoom:22%;
+    margin: 10px;
+    padding-top: 25px;
+}
+.box7 {
+    padding: 1px;
+}
+.box7 p{
+    margin: 5px;
+    padding-left: 15px;
+    padding-top: 2px;
+    color: #2162A1;
+}
+.box7 h2{
+    font-size: 150%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Headphones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    zoom:95%;
+    margin: 10px;
+}
+.box8 {
+    padding: 1px;
+}
+.box8 p{
+    margin: 5px;
+    padding-left: 15px;
+    padding-top: 36px;
+    color: #2162A1;
+}
+.box8 h2{
+    font-size: 150%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.TV{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    zoom:67%;
+    padding-top: 50px;
+    margin: 10px;
+}
+.container{
+    background-color: #eee8e8;
+    width: 100%;
+    height: 200px;
+    margin: 10px;
+}
+
+.column{
+    display: inline;
+    width: 200px;
+    margin: 7px;
+}   
